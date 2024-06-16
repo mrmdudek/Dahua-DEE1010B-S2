@@ -21,12 +21,12 @@ These instructions are for an ESP8266 Wemos D1 mini.
 |D2(GPIO4)|Button pin|short to GND to activate button|
 
 # Tests
-Communication and Relay functionality tested with ESP32 (LOLIN D32) and ESP8266 (Wemos D1 mini)
+Communication and Relay functionality tested with ESP32 (LOLIN D32) and ESP8266 (Wemos D1 mini). Tested with Dahua KTP03 (VTH2621G-P + VTO2111D-P-S2 + PFS3006-4ET-36)
 
 # Why to use your hardware and this library instead of buy DEE1010B_S2?
-Educational purpose
-Interacting with other system (eg. home assistant)
-Cheaper
+-Educational purpose
+-Interacting with other system (eg. home assistant)
+-Cheaper (espetially if you have 
 
 # Bugs / not working
 FBK not implemented
