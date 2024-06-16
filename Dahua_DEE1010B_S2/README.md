@@ -26,7 +26,8 @@ Communication and Relay functionality tested with ESP32 (LOLIN D32) and ESP8266 
 # Why to use your hardware and this library instead of buy DEE1010B_S2?
 Educational purpose, Interacting with other system (eg. home assistant), Cheaper
 
-# Bugs / not working
-FBK not implemented
-button not tested
-RS485 additional bus for card reader not implemented
+# Bugs / not working / not tested
+FBK not implemented, 
+button not tested, 
+RS485 additional bus for card reader not implemented,
+other boards not tested and not compiled
