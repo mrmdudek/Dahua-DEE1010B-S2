@@ -18,7 +18,7 @@ These instructions are for an ESP8266 Wemos D1 mini.
 |GND    |GND| |
 |3.3V|VCC| |
 |D4(GPIO2)|Relay pin|Active high|
-|D2(GPIO4)|Button pin|short to GND to activate button|
+|D2(GPIO4)|Button pin|short to GND to activate button, Connect via external 4.7k Resistor to 3V3|
 
 # Communication and frame description
 VTO (eg. VTO2111D-P-S2) work as master, DEE1010B_S2 as slave. Both communicate via RS485 protocol, Bit rate 9600 Bits/s, 1 stop bit, no parity.
@@ -57,10 +57,10 @@ Normal frame
 Request open frame (event type)
 ![image](https://github.com/mrmdudek/Dahua-DEE1010B-S2/assets/57598064/b0a0455b-92bb-49a3-a5f2-7fe71f687bec)
 
-Slave respond with additional parameters (not event type)
+Slave respond with additional parameters
 ![image](https://github.com/mrmdudek/Dahua-DEE1010B-S2/assets/57598064/270ba52b-d6a6-44ec-9d3e-c9947a013ad1)
 
-Normal communication continue
+Normal communication (with the same counter as previous, next frame increase counter)
 ![image](https://github.com/mrmdudek/Dahua-DEE1010B-S2/assets/57598064/10dae439-6ec5-4ce7-ba8a-57acfef1dc57)
 
 For detailed timing and event type please check communication logging: 
