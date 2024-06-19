@@ -51,6 +51,7 @@ Communication frame every ~500ms
 Let's follow door open request frame - event type frame. 
 
 Normal frame
+
 ![image](https://github.com/mrmdudek/Dahua-DEE1010B-S2/assets/57598064/7cfde598-522e-4ad0-94b4-f23374fdb440)
 
 Request open frame (event type)
